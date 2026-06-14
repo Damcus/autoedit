@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+
+# Virtual environment (machine-specific, large)
+.venv/
+venv/
+env/
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+
+# Local tooling
+.claude/settings.local.json
+
+# AutoEdit output / prefs
+*_edited.mp4
+.autoedit.json
