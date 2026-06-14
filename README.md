@@ -61,10 +61,4 @@ python -m autoedit.cli talk.mp4 --language sk --accent green
 python -m autoedit.cli podcast.mp4 --start 1:30 --duration 0:45   # keep 0:45 from 1:30
 ```
 
-## Notes
 
-- First run downloads the speech model — later runs are much faster.
-- GPU (your RTX 2050) is used automatically when the CUDA runtime is present;
-  otherwise it falls back to CPU with no change in output quality.
-- Captions use the **Arial Black** system font by default; change `font` in
-  `autoedit/config.py` to any installed font.
